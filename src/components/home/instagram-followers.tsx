@@ -19,7 +19,6 @@ const PROFILE = {
   handle: "@manupolonc",
   url: "https://www.instagram.com/manupolonc/",
   followers: 955_000,
-  posts: 2_400,
   brands: [
     { label: "NC Infinity Gaming", handle: "@ncinfinitygaming" },
     { label: "NC Infinity Real Estate", handle: "@ncinfinityrealestate" },
@@ -161,14 +160,6 @@ export function InstagramFollowers() {
               </p>
               <p className="mt-1 text-4xl font-medium tracking-[-0.03em] text-white md:text-5xl">
                 <AnimatedFollowers value={PROFILE.followers} />
-              </p>
-            </div>
-            <div>
-              <p className="text-[0.65rem] uppercase tracking-[0.2em] text-white/40">
-                Posts
-              </p>
-              <p className="mt-1 text-2xl font-medium text-white">
-                {PROFILE.posts}
               </p>
             </div>
             <Button href={PROFILE.url} external size="lg">

@@ -27,8 +27,8 @@ export const siteConfig = {
     lead:
       "Born in 1994 in Angola and based in Dubai, Manuel Zau Polo leads No Competition Infinity Gaming and No Competition Infinity Real Estate — spanning artificial intelligence, technology infrastructure, gaming, robotics, and property.",
     portrait: {
-      src: "/images/manuel-about-cinematic.jpg",
-      alt: "Manuel Zau Polo — professional portrait",
+      src: "/images/manuel-about-cybertruck.jpg",
+      alt: "Manuel Zau Polo in a Cybertruck",
     },
   },
 

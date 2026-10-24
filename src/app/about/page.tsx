@@ -33,7 +33,7 @@ export default function AboutPage() {
             priority
             quality={95}
             sizes="100vw"
-            className="object-cover object-[70%_center] opacity-55"
+            className="object-cover object-[center_30%] opacity-55"
           />
           <div
             className="pointer-events-none absolute inset-x-0 top-0 z-[1] h-[38%]"
