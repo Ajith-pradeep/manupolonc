@@ -19,6 +19,7 @@ const PROFILE = {
   handle: "@manupolonc",
   url: "https://www.instagram.com/manupolonc/",
   followers: 955_000,
+  posts: 2_400,
   brands: [
     { label: "NC Infinity Gaming", handle: "@ncinfinitygaming" },
     { label: "NC Infinity Real Estate", handle: "@ncinfinityrealestate" },

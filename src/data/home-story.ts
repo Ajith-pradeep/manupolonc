@@ -33,7 +33,7 @@ export const carouselSlides = [
     image: "/images/manuel-hero-cinematic-2k.jpg",
     imagePosition: "70% center",
     /** Portrait sits on the right — copy stays left in open space */
-    contentAlign: "left" as const,
+    contentAlign: "left" as "left" | "right",
   },
   {
     id: "gaming",
@@ -44,7 +44,7 @@ export const carouselSlides = [
       "Founder & President of No Competition Infinity Gaming — AI, digital twins, simulation, and humanoid robotics.",
     image: "/images/ig-cybertruck-1.jpg",
     imagePosition: "center 18%",
-    contentAlign: "left" as const,
+    contentAlign: "left" as "left" | "right",
   },
   {
     id: "partnership",
@@ -55,7 +55,7 @@ export const carouselSlides = [
       "2026 five-year agreement with Jiangsu Yunmu — reported capacity of up to 10,000 humanoid robots annually, subject to validation.",
     image: "/images/manuel-signing-wide.jpg",
     imagePosition: "55% center",
-    contentAlign: "left" as const,
+    contentAlign: "left" as "left" | "right",
   },
   {
     id: "property",
@@ -66,7 +66,7 @@ export const carouselSlides = [
       "No Competition Infinity Real Estate — curated property presentation with international ambition.",
     image: "/images/manuel-mission-realtor.jpg",
     imagePosition: "78% center",
-    contentAlign: "left" as const,
+    contentAlign: "left" as "left" | "right",
   },
   {
     id: "legacy",
@@ -77,7 +77,7 @@ export const carouselSlides = [
       "From Cabinda beginnings to global platforms — engineering training, entrepreneurship, and long-term value creation.",
     image: "/images/manuel-painterly-blazer.jpg",
     imagePosition: "65% center",
-    contentAlign: "left" as const,
+    contentAlign: "left" as "left" | "right",
   },
 ] as const;
 
