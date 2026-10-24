@@ -30,8 +30,8 @@ export const carouselSlides = [
     title: "Vision",
     description:
       "Angolan entrepreneur based in Dubai — building lasting platforms across technology, gaming, and real estate.",
-    image: "/images/manuel-hero-cinematic-2k.jpg",
-    imagePosition: "70% center",
+    image: "/images/manuel-vision-cybertruck.jpg",
+    imagePosition: "center 35%",
     /** Portrait sits on the right — copy stays left in open space */
     contentAlign: "left" as "left" | "right",
   },
@@ -64,19 +64,8 @@ export const carouselSlides = [
     title: "Property",
     description:
       "No Competition Infinity Real Estate — curated property presentation with international ambition.",
-    image: "/images/manuel-mission-realtor.jpg",
-    imagePosition: "78% center",
-    contentAlign: "left" as "left" | "right",
-  },
-  {
-    id: "legacy",
-    index: "05",
-    label: "Legacy",
-    title: "Legacy",
-    description:
-      "From Cabinda beginnings to global platforms — engineering training, entrepreneurship, and long-term value creation.",
-    image: "/images/manuel-painterly-blazer.jpg",
-    imagePosition: "65% center",
+    image: "/images/manuel-property-range-rover.jpg",
+    imagePosition: "center 40%",
     contentAlign: "left" as "left" | "right",
   },
 ] as const;
